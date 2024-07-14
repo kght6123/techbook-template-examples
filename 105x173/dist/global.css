@@ -1,0 +1,1838 @@
+:root {
+  --tw-inherit: inherit;
+  --tw-current: currentColor;
+  --tw-transparent: transparent;
+  --tw-black: #000;
+  --tw-white: #fff;
+  --tw-slate-50: #f8fafc;
+  --tw-slate-100: #f1f5f9;
+  --tw-slate-200: #e2e8f0;
+  --tw-slate-300: #cbd5e1;
+  --tw-slate-400: #94a3b8;
+  --tw-slate-500: #64748b;
+  --tw-slate-600: #475569;
+  --tw-slate-700: #334155;
+  --tw-slate-800: #1e293b;
+  --tw-slate-900: #0f172a;
+  --tw-slate-950: #020617;
+  --tw-gray-50: #f9fafb;
+  --tw-gray-100: #f3f4f6;
+  --tw-gray-200: #e5e7eb;
+  --tw-gray-300: #d1d5db;
+  --tw-gray-400: #9ca3af;
+  --tw-gray-500: #6b7280;
+  --tw-gray-600: #4b5563;
+  --tw-gray-700: #374151;
+  --tw-gray-800: #1f2937;
+  --tw-gray-900: #111827;
+  --tw-gray-950: #030712;
+  --tw-zinc-50: #fafafa;
+  --tw-zinc-100: #f4f4f5;
+  --tw-zinc-200: #e4e4e7;
+  --tw-zinc-300: #d4d4d8;
+  --tw-zinc-400: #a1a1aa;
+  --tw-zinc-500: #71717a;
+  --tw-zinc-600: #52525b;
+  --tw-zinc-700: #3f3f46;
+  --tw-zinc-800: #27272a;
+  --tw-zinc-900: #18181b;
+  --tw-zinc-950: #09090b;
+  --tw-neutral-50: #fafafa;
+  --tw-neutral-100: #f5f5f5;
+  --tw-neutral-200: #e5e5e5;
+  --tw-neutral-300: #d4d4d4;
+  --tw-neutral-400: #a3a3a3;
+  --tw-neutral-500: #737373;
+  --tw-neutral-600: #525252;
+  --tw-neutral-700: #404040;
+  --tw-neutral-800: #262626;
+  --tw-neutral-900: #171717;
+  --tw-neutral-950: #0a0a0a;
+  --tw-stone-50: #fafaf9;
+  --tw-stone-100: #f5f5f4;
+  --tw-stone-200: #e7e5e4;
+  --tw-stone-300: #d6d3d1;
+  --tw-stone-400: #a8a29e;
+  --tw-stone-500: #78716c;
+  --tw-stone-600: #57534e;
+  --tw-stone-700: #44403c;
+  --tw-stone-800: #292524;
+  --tw-stone-900: #1c1917;
+  --tw-stone-950: #0c0a09;
+  --tw-red-50: #fef2f2;
+  --tw-red-100: #fee2e2;
+  --tw-red-200: #fecaca;
+  --tw-red-300: #fca5a5;
+  --tw-red-400: #f87171;
+  --tw-red-500: #ef4444;
+  --tw-red-600: #dc2626;
+  --tw-red-700: #b91c1c;
+  --tw-red-800: #991b1b;
+  --tw-red-900: #7f1d1d;
+  --tw-red-950: #450a0a;
+  --tw-orange-50: #fff7ed;
+  --tw-orange-100: #ffedd5;
+  --tw-orange-200: #fed7aa;
+  --tw-orange-300: #fdba74;
+  --tw-orange-400: #fb923c;
+  --tw-orange-500: #f97316;
+  --tw-orange-600: #ea580c;
+  --tw-orange-700: #c2410c;
+  --tw-orange-800: #9a3412;
+  --tw-orange-900: #7c2d12;
+  --tw-orange-950: #431407;
+  --tw-amber-50: #fffbeb;
+  --tw-amber-100: #fef3c7;
+  --tw-amber-200: #fde68a;
+  --tw-amber-300: #fcd34d;
+  --tw-amber-400: #fbbf24;
+  --tw-amber-500: #f59e0b;
+  --tw-amber-600: #d97706;
+  --tw-amber-700: #b45309;
+  --tw-amber-800: #92400e;
+  --tw-amber-900: #78350f;
+  --tw-amber-950: #451a03;
+  --tw-yellow-50: #fefce8;
+  --tw-yellow-100: #fef9c3;
+  --tw-yellow-200: #fef08a;
+  --tw-yellow-300: #fde047;
+  --tw-yellow-400: #facc15;
+  --tw-yellow-500: #eab308;
+  --tw-yellow-600: #ca8a04;
+  --tw-yellow-700: #a16207;
+  --tw-yellow-800: #854d0e;
+  --tw-yellow-900: #713f12;
+  --tw-yellow-950: #422006;
+  --tw-lime-50: #f7fee7;
+  --tw-lime-100: #ecfccb;
+  --tw-lime-200: #d9f99d;
+  --tw-lime-300: #bef264;
+  --tw-lime-400: #a3e635;
+  --tw-lime-500: #84cc16;
+  --tw-lime-600: #65a30d;
+  --tw-lime-700: #4d7c0f;
+  --tw-lime-800: #3f6212;
+  --tw-lime-900: #365314;
+  --tw-lime-950: #1a2e05;
+  --tw-green-50: #f0fdf4;
+  --tw-green-100: #dcfce7;
+  --tw-green-200: #bbf7d0;
+  --tw-green-300: #86efac;
+  --tw-green-400: #4ade80;
+  --tw-green-500: #22c55e;
+  --tw-green-600: #16a34a;
+  --tw-green-700: #15803d;
+  --tw-green-800: #166534;
+  --tw-green-900: #14532d;
+  --tw-green-950: #052e16;
+  --tw-emerald-50: #ecfdf5;
+  --tw-emerald-100: #d1fae5;
+  --tw-emerald-200: #a7f3d0;
+  --tw-emerald-300: #6ee7b7;
+  --tw-emerald-400: #34d399;
+  --tw-emerald-500: #10b981;
+  --tw-emerald-600: #059669;
+  --tw-emerald-700: #047857;
+  --tw-emerald-800: #065f46;
+  --tw-emerald-900: #064e3b;
+  --tw-emerald-950: #022c22;
+  --tw-teal-50: #f0fdfa;
+  --tw-teal-100: #ccfbf1;
+  --tw-teal-200: #99f6e4;
+  --tw-teal-300: #5eead4;
+  --tw-teal-400: #2dd4bf;
+  --tw-teal-500: #14b8a6;
+  --tw-teal-600: #0d9488;
+  --tw-teal-700: #0f766e;
+  --tw-teal-800: #115e59;
+  --tw-teal-900: #134e4a;
+  --tw-teal-950: #042f2e;
+  --tw-cyan-50: #ecfeff;
+  --tw-cyan-100: #cffafe;
+  --tw-cyan-200: #a5f3fc;
+  --tw-cyan-300: #67e8f9;
+  --tw-cyan-400: #22d3ee;
+  --tw-cyan-500: #06b6d4;
+  --tw-cyan-600: #0891b2;
+  --tw-cyan-700: #0e7490;
+  --tw-cyan-800: #155e75;
+  --tw-cyan-900: #164e63;
+  --tw-cyan-950: #083344;
+  --tw-sky-50: #f0f9ff;
+  --tw-sky-100: #e0f2fe;
+  --tw-sky-200: #bae6fd;
+  --tw-sky-300: #7dd3fc;
+  --tw-sky-400: #38bdf8;
+  --tw-sky-500: #0ea5e9;
+  --tw-sky-600: #0284c7;
+  --tw-sky-700: #0369a1;
+  --tw-sky-800: #075985;
+  --tw-sky-900: #0c4a6e;
+  --tw-sky-950: #082f49;
+  --tw-blue-50: #eff6ff;
+  --tw-blue-100: #dbeafe;
+  --tw-blue-200: #bfdbfe;
+  --tw-blue-300: #93c5fd;
+  --tw-blue-400: #60a5fa;
+  --tw-blue-500: #3b82f6;
+  --tw-blue-600: #2563eb;
+  --tw-blue-700: #1d4ed8;
+  --tw-blue-800: #1e40af;
+  --tw-blue-900: #1e3a8a;
+  --tw-blue-950: #172554;
+  --tw-indigo-50: #eef2ff;
+  --tw-indigo-100: #e0e7ff;
+  --tw-indigo-200: #c7d2fe;
+  --tw-indigo-300: #a5b4fc;
+  --tw-indigo-400: #818cf8;
+  --tw-indigo-500: #6366f1;
+  --tw-indigo-600: #4f46e5;
+  --tw-indigo-700: #4338ca;
+  --tw-indigo-800: #3730a3;
+  --tw-indigo-900: #312e81;
+  --tw-indigo-950: #1e1b4b;
+  --tw-violet-50: #f5f3ff;
+  --tw-violet-100: #ede9fe;
+  --tw-violet-200: #ddd6fe;
+  --tw-violet-300: #c4b5fd;
+  --tw-violet-400: #a78bfa;
+  --tw-violet-500: #8b5cf6;
+  --tw-violet-600: #7c3aed;
+  --tw-violet-700: #6d28d9;
+  --tw-violet-800: #5b21b6;
+  --tw-violet-900: #4c1d95;
+  --tw-violet-950: #2e1065;
+  --tw-purple-50: #faf5ff;
+  --tw-purple-100: #f3e8ff;
+  --tw-purple-200: #e9d5ff;
+  --tw-purple-300: #d8b4fe;
+  --tw-purple-400: #c084fc;
+  --tw-purple-500: #a855f7;
+  --tw-purple-600: #9333ea;
+  --tw-purple-700: #7e22ce;
+  --tw-purple-800: #6b21a8;
+  --tw-purple-900: #581c87;
+  --tw-purple-950: #3b0764;
+  --tw-fuchsia-50: #fdf4ff;
+  --tw-fuchsia-100: #fae8ff;
+  --tw-fuchsia-200: #f5d0fe;
+  --tw-fuchsia-300: #f0abfc;
+  --tw-fuchsia-400: #e879f9;
+  --tw-fuchsia-500: #d946ef;
+  --tw-fuchsia-600: #c026d3;
+  --tw-fuchsia-700: #a21caf;
+  --tw-fuchsia-800: #86198f;
+  --tw-fuchsia-900: #701a75;
+  --tw-fuchsia-950: #4a044e;
+  --tw-pink-50: #fdf2f8;
+  --tw-pink-100: #fce7f3;
+  --tw-pink-200: #fbcfe8;
+  --tw-pink-300: #f9a8d4;
+  --tw-pink-400: #f472b6;
+  --tw-pink-500: #ec4899;
+  --tw-pink-600: #db2777;
+  --tw-pink-700: #be185d;
+  --tw-pink-800: #9d174d;
+  --tw-pink-900: #831843;
+  --tw-pink-950: #500724;
+  --tw-rose-50: #fff1f2;
+  --tw-rose-100: #ffe4e6;
+  --tw-rose-200: #fecdd3;
+  --tw-rose-300: #fda4af;
+  --tw-rose-400: #fb7185;
+  --tw-rose-500: #f43f5e;
+  --tw-rose-600: #e11d48;
+  --tw-rose-700: #be123c;
+  --tw-rose-800: #9f1239;
+  --tw-rose-900: #881337;
+  --tw-rose-950: #4c0519;
+  --tw-primary-50: var(--primary-color-50, #f8fafc);
+  --tw-primary-200: var(--primary-color-200, #e2e8f0);
+  --tw-primary-400: var(--primary-color-400, #94a3b8);
+  --tw-primary-500: var(--primary-color-500, #64748b);
+  --tw-primary-800: var(--primary-color-800, #1e293b);
+  --tw-secondary-50: var(--secondary-color-50, #fafafa);
+  --tw-secondary-200: var(--secondary-color-200, #e5e5e5);
+  --tw-secondary-400: var(--secondary-color-400, #a3a3a3);
+  --tw-secondary-500: var(--secondary-color-500, #737373);
+  --tw-secondary-800: var(--secondary-color-800, #262626);
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.hidden {
+  display: none;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.break-before-page {
+  break-before: page;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.break-bf-left {
+  break-before: left;
+}
+
+@page {
+  size: 105mm 173mm;
+
+  /* トンボを追加 */
+
+  /* marks: crop cross; */
+
+  /* トンボの塗り足しを3mmに設定 */
+
+  /* bleed: 3mm; */
+
+  margin-top: 25mm;
+
+  margin-bottom: 33mm;
+
+  @bottom-center {
+    content: counter(page);
+  }
+
+  @top-center {
+    content: element(topCenter);
+  }
+
+  @footnote {
+    float: bottom;
+  }
+}
+
+@page :left {
+  /* 左ページの右余白を広げる */
+
+  /* 上 | 右 | 下 | 左 */
+
+  margin: 9% 10% 9% 8%;
+
+  @top-left-corner {
+    content: element(topLeftCorner);
+  }
+
+  @top-left {
+    content: env(pub-title);
+
+    width: 350px;
+  }
+
+  @top-right-corner {
+    content: element(topRightCorner);
+  }
+
+  @top-right {
+    content: element(topRight);
+  }
+
+  /* @left-top {
+    content: element(leftPageLeftTop);
+  }
+  @left-middle {
+    content: element(leftPageLeftMiddle);
+  }
+  @left-bottom {
+    content: element(leftPageLeftBottom);
+  } */
+
+  @bottom-left-corner {
+    content: element(bottomLeftCorner);
+  }
+
+  @bottom-left {
+    content: element(bottomLeft);
+  }
+
+  @bottom-right-corner {
+    content: element(bottomRightCorner);
+  }
+
+  @bottom-right {
+    content: element(bottomRight);
+  }
+}
+
+@page :right {
+  /* 右ページの左余白を広げる */
+
+  /* 上 | 右 | 下 | 左 */
+
+  margin: 9% 8% 9% 10%;
+
+  @top-right-corner {
+    content: element(topLeftCorner);
+  }
+
+  @top-right {
+    content: "第" counter(chapter) "章 " env(doc-title);
+  }
+
+  @top-left-corner {
+    content: element(topRightCorner);
+  }
+
+  @top-left {
+    content: element(topRight);
+  }
+
+  /* @right-top {
+    content: element(rightPageRightTop);
+  }
+  @right-middle {
+    content: element(rightPageRightMiddle);
+  }
+  @right-bottom {
+    content: element(rightPageRightBottom);
+  } */
+
+  @bottom-left-corner {
+    content: element(bottomRightCorner);
+  }
+
+  @bottom-left {
+    content: element(bottomRight);
+  }
+
+  @bottom-right-corner {
+    content: element(bottomLeftCorner);
+  }
+
+  @bottom-right {
+    content: element(bottomLeft);
+  }
+}
+
+/* cover */
+
+.cover {
+  page: cover;
+  page-break-before: always;
+  /* Use if your last page is blank, else omit. */
+}
+
+@page cover {
+  background-image: var(--cover-url);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  @top-left {
+    content: none;
+  }
+
+  @top-left-corner {
+    content: none;
+  }
+
+  @top-center {
+    content: none;
+  }
+
+  @top-right-corner {
+    content: none;
+  }
+
+  @top-right {
+    content: none;
+  }
+
+  @bottom-center {
+    content: none;
+  }
+
+  @bottom-left-corner {
+    content: none;
+  }
+
+  @bottom-left {
+    content: none;
+  }
+
+  @bottom-right {
+    content: none;
+  }
+
+  @bottom-right-corner {
+    content: none;
+  }
+}
+
+.coverText {
+  height: calc(173mm * 0.8);
+}
+
+:root {
+  font-family: "Rounded Mgen+ 2p","Rounded Mplus 1c","PlemolJP";
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+/* リンク */
+
+a {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+/* インラインコード */
+
+p > code {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color-200, #e2e8f0);
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+/* タスクリスト */
+
+ul.contains-task-list > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+ul.contains-task-list > li.task-list-item > input[type="checkbox"] {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+ul.contains-task-list > li.task-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+ul.contains-task-list > li.task-list-item::before {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-content: "-";
+  content: var(--tw-content);
+}
+
+/* ソースコードの埋め込み */
+
+.embedCode {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.embedCodeCaption {
+  margin-top: -0.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  counter-increment: caption;
+}
+
+.embedCodeCaption::before {
+  content: "コード" counter(chapter) "-" counter(caption) ". ";
+}
+
+/* shiki */
+
+.astro-code,
+.shiki {
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-all;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Rounded Mgen+ 1mn","PlemolJP Console";
+}
+
+.shiki .diff,
+.shiki .highlighted {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* DOC: https://github.com/shikijs/shiki/issues/3#issuecomment-830564854 */
+
+/* DOC: https://github.com/shikijs/shiki/blob/main/packages/transformers/test/fixtures/diff/a.js.output.html */
+
+.shiki > code {
+  counter-reset: shiki_line_number;
+  counter-increment: shiki_line_number 0;
+}
+
+.shiki > code .line:not(:last-child)::before {
+  margin-right: 1.5rem;
+  display: inline-block;
+  width: 2rem;
+  text-align: right;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+  content: counter(shiki_line_number);
+  counter-increment: shiki_line_number;
+}
+
+.shiki > code .line.diff.add {
+  background-color: rgba(117,249,117,0.4);
+}
+
+.shiki > code .line.diff.add::before {
+  width: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 128 0 / var(--tw-text-opacity));
+  content: counter(shiki_line_number) " +";
+}
+
+.shiki > code .line.diff.remove {
+  background-color: rgba(250,112,112,0.4);
+}
+
+.shiki > code .line.diff.remove::before {
+  width: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
+  content: counter(shiki_line_number) " -";
+}
+
+/* DOC: https://github.com/shikijs/shiki/blob/main/packages/transformers/test/fixtures/highlight/a.js.output.html */
+
+.shiki .highlighted {
+  background-color: rgba(0,119,255,0.1);
+}
+
+/* DOC: https://github.com/shikijs/shiki/blob/main/packages/transformers/test/fixtures/highlight-word/occurrence.js.output.html */
+
+.shiki .highlighted-word {
+  background-color: rgba(0,119,255,0.1);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* DOC: https://github.com/shikijs/shiki/blob/main/packages/transformers/test/fixtures/error-level/a.js.output.html */
+
+.shiki .highlighted.warning {
+  background-color: rgba(255,255,3,0.5);
+}
+
+.shiki .highlighted.error {
+  background-color: rgba(255,0,0,0.5);
+}
+
+/* Page Running elements https://www.w3.org/TR/css-gcpm-3/#running-elements */
+
+.topCenter {
+  position: running(topCenter);
+}
+
+.topRight {
+  position: running(topRight);
+}
+
+.topRightCorner {
+  position: running(topRightCorner);
+}
+
+.topLeftCorner {
+  position: running(topLeftCorner);
+}
+
+.bottomRight {
+  position: running(bottomRight);
+}
+
+.bottomRightCorner {
+  position: running(bottomRightCorner);
+}
+
+.bottomLeft {
+  position: running(bottomLeft);
+}
+
+.bottomLeftCorner {
+  position: running(bottomLeftCorner);
+}
+
+/* .leftPageLeftTop {
+  @apply hidden;
+  position: running(leftPageLeftTop);
+}
+.leftPageLeftMiddle {
+  @apply hidden;
+  position: running(leftPageLeftMiddle);
+}
+.leftPageLeftBottom {
+  @apply hidden;
+  position: running(leftPageLeftBottom);
+}
+.rightPageRightTop {
+  @apply hidden;
+  position: running(rightPageRightTop);
+}
+.rightPageRightMiddle {
+  @apply hidden;
+  position: running(rightPageRightMiddle);
+}
+.rightPageRightBottom {
+  @apply hidden;
+  position: running(rightPageRightBottom);
+} */
+
+/* 見出しフォントサイズの調整 */
+
+@media print {
+  h1 {
+    margin-bottom: 0.5rem;
+    padding-top: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+  }
+
+  h1::before {
+    margin-left: 2px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+
+  h1 + p {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  /* h2 > span {
+    @apply pl-3 text-base;
+  } */
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  /* h3 > span {
+    @apply pl-3 text-[10px];
+  } */
+
+  h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    break-after: auto !important;
+    break-before: auto !important;
+  }
+
+  tr,
+  th,
+  td {
+    break-inside: auto !important;
+  }
+}
+
+/* 著者の表示スタイル */
+
+.doc-author {
+  margin-bottom: 1.75rem;
+  text-align: right;
+  box-shadow: 0 0.7px 0 -0.4px #78716c;
+}
+
+/* 目次の章や節の表示 */
+
+#toc-body {
+  page: toc;
+}
+
+@page toc {
+  @top-right {
+    content: none;
+  }
+}
+
+#toc .header1::before {
+  content: "第" target-counter(attr(data-href), chapter) "章 ";
+}
+
+#toc .header2::before {
+  content: target-counter(attr(data-href), chapter) "-" target-counter(attr(data-href), header2) ". ";
+}
+
+#toc .header3::before {
+  content: target-counter(attr(data-href), chapter) "-" target-counter(attr(data-href), header2) "." target-counter(attr(data-href), header3) ". ";
+}
+
+#toc .header4::before {
+  content: target-counter(attr(data-href), chapter) "-" target-counter(attr(data-href), header2) "." target-counter(attr(data-href), header3) "." target-counter(attr(data-href), header4) ". ";
+}
+
+#toc .header5::before {
+  content: target-counter(attr(data-href), chapter) "-" target-counter(attr(data-href), header2) "." target-counter(attr(data-href), header3) "." target-counter(attr(data-href), header4) "." target-counter(attr(data-href), header5) ". ";
+}
+
+/* 別の章(h1)や節(h2)へのリンク */
+
+a.chapref::after {
+  content: " (" target-counter(attr(href), page) "ページ)";
+}
+
+a.chapref::before {
+  content: "第" target-counter(attr(href), chapter) "章 ";
+}
+
+a.h2ref::after {
+  content: " / ";
+}
+
+a.h2ref::before {
+  content: "第" target-counter(attr(href), chapter) "章 ";
+}
+
+a.h2title::before {
+  content: target-counter(attr(href url), header2) ". ";
+}
+
+a.h2title::after {
+  content: " (" target-counter(attr(href), page) "ページ)";
+}
+
+a.imageref::before {
+  content: "図" target-counter(attr(href), chapter) "-" target-counter(attr(href url), caption) ". ";
+}
+
+a.imageref::after {
+  content: " (" target-counter(attr(href), page) "ページ)";
+}
+
+a.coderef::before {
+  content: "コード" target-counter(attr(href), chapter) "-" target-counter(attr(href url), caption) ". ";
+}
+
+a.coderef::after {
+  content: " (" target-counter(attr(href), page) "ページ)";
+}
+
+a.tableref::before {
+  content: "表" target-counter(attr(href), chapter) "-" target-counter(attr(href url), caption) ". ";
+}
+
+a.tableref::after {
+  content: " (" target-counter(attr(href), page) "ページ)";
+}
+
+/* チャプターのカウンター */
+
+@page chapter:first {
+  counter-reset: chapter;
+}
+
+@page chapter:nth(1) {
+  counter-increment: chapter;
+}
+
+.chapter h1::before {
+  margin-bottom: 0.25rem;
+  display: block;
+  font-size: 50%;
+  content: "第" counter(chapter) "章";
+}
+
+.chapter {
+  page: chapter;
+}
+
+/* h2〜h5のカウンター */
+
+.chapter body {
+  counter-reset: header2 header3 header4 header5 caption;
+}
+
+.chapter h1 {
+  counter-reset: header2 header3 header4 header5 caption;
+}
+
+.chapter h2::before {
+  display: block;
+  font-size: 70%;
+  content: counter(chapter) "-" counter(header2) ". ";
+}
+
+.chapter h2 {
+  counter-increment: header2;
+  counter-reset: header3 header4 header5;
+}
+
+.chapter h3::before {
+  font-size: 70%;
+  content: counter(chapter) "-" counter(header2) "." counter(header3) ". ";
+}
+
+.chapter h3 {
+  counter-increment: header3;
+  counter-reset: header4 header5;
+}
+
+.chapter h4::before {
+  font-size: 70%;
+  content: counter(chapter) "-" counter(header2) "." counter(header3) "."
+    counter(header4) ". ";
+}
+
+.chapter h4 {
+  counter-increment: header4;
+  counter-reset: header5;
+}
+
+.chapter h5::before {
+  font-size: 70%;
+  content: counter(chapter) "-" counter(header2) "." counter(header3) "."
+    counter(header4) "." counter(header5) ". ";
+}
+
+.chapter h5 {
+  counter-increment: header5;
+}
+
+/* footnote */
+
+.footnote {
+  float: footnote;
+  footnote-display: block;
+  counter-increment: footnote;
+  background-color: #fff;
+  font-weight: normal;
+}
+
+.footnote::footnote-call {
+  content: "[" counter(footnote) "]";
+  display: inline;
+  vertical-align: super;
+}
+
+.footnote::footnote-marker {
+  content: "[" counter(footnote) "] ";
+  display: inline;
+}
+
+/* footnote inline */
+
+.footnote-inline {
+  background-color: #eee;
+  color: gray;
+  font-size: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.footnote-inline a {
+  word-break: break-all;
+}
+
+/* appendix */
+
+#appendix-body {
+  page: appendix;
+}
+
+@page appendix {
+  @top-right {
+    content: none;
+  }
+}
+
+.appendix {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color-200, #e2e8f0);
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+/* 1段組み用のスタイル */
+
+.colmun-count-1 {
+  column-count: 1;
+}
+
+/* 2段組み用のスタイル */
+
+.colmun-count-2 {
+  /* @apply pb-7; */
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: solid 1px #d6d3d1;
+  /* column-fill: balance-all; */
+  /* column-fill: balance; */
+  column-fill: auto;
+}
+
+/* 2段組みをまたぐ要素（見出し、画像、ソースコード）などに指定する */
+
+.column-span-all {
+  /* INFO: https://github.com/vivliostyle/vivliostyle.js/issues/542 */
+  float-reference: column;
+  float: top;
+  column-span: all;
+}
+
+.column-span-all-h5 {
+  background-color: lightgray;
+  padding: 1rem;
+  column-span: all;
+}
+
+.column-span-all-amber-100 {
+  /* INFO: https://github.com/vivliostyle/vivliostyle.js/issues/542 */
+  float-reference: column;
+  float: top;
+  column-span: all;
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.column-span-all-stone-100 {
+  /* INFO: https://github.com/vivliostyle/vivliostyle.js/issues/542 */
+  float-reference: column;
+  float: top;
+  column-span: all;
+  background-color: #f5f5f4;
+  color: #292524;
+}
+
+/* チャットエリアのスタイル */
+
+.chat > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.chat {
+  padding-left: 0px;
+}
+
+.chat-header {
+  display: flex;
+  list-style-type: none;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.chat-header > div {
+  margin-top: 1rem;
+  min-width: fit-content;
+  max-width: fit-content;
+  border-radius: 9999px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  background-color: #e7e5e4;
+  color: #292524;
+  border-color: transparent;
+}
+
+.chat-left {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.chat-left-invisible {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chat-left-invisible .trianle-left,
+.chat-left-invisible .chat-faceicon {
+  visibility: hidden;
+}
+
+.chat-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.chat-right-invisible {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat-right-invisible .trianle-right,
+.chat-right-invisible .chat-faceicon {
+  visibility: hidden;
+}
+
+.chat-contents {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.chat-faceicon {
+  position: relative;
+  padding: 0px;
+}
+
+.chat-faceicon > img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.chat-faceicon-name {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 4.125rem;
+  margin: auto;
+  text-align: center;
+  font-size: 8px;
+}
+
+.chat .qrcode {
+  width: 9rem;
+}
+
+.balloon {
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  max-width: 36rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-color: transparent;
+}
+
+.balloon > .trianle-left {
+  border: 1rem solid transparent;
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.balloon > .trianle-right {
+  border: 1rem solid transparent;
+  position: absolute;
+  right: -1.75rem;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.balloon-indigo-200 {
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  max-width: 36rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-color: transparent;
+}
+
+.balloon-indigo-200 > .trianle-left {
+  border: 1rem solid transparent;
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.balloon-indigo-200 > .trianle-right {
+  border: 1rem solid transparent;
+  position: absolute;
+  right: -1.75rem;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.balloon-indigo-200 {
+  background-color: #c7d2fe;
+  color: #3730a3;
+  border-color: transparent;
+}
+
+.balloon-indigo-200 > .trianle-left {
+  border-right: 1rem solid #c7d2fe;
+}
+
+.balloon-indigo-200 > .trianle-right {
+  border-right: 1rem solid #c7d2fe;
+}
+
+.balloon-fuchsia-200 {
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  max-width: 36rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-color: transparent;
+}
+
+.balloon-fuchsia-200 > .trianle-left {
+  border: 1rem solid transparent;
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.balloon-fuchsia-200 > .trianle-right {
+  border: 1rem solid transparent;
+  position: absolute;
+  right: -1.75rem;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.balloon-fuchsia-200 {
+  background-color: #f5d0fe;
+  color: #86198f;
+  border-color: transparent;
+}
+
+.balloon-fuchsia-200 > .trianle-left {
+  border-right: 1rem solid #f5d0fe;
+}
+
+.balloon-fuchsia-200 > .trianle-right {
+  border-right: 1rem solid #f5d0fe;
+}
+
+.balloon-stone-200 {
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  max-width: 36rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-color: transparent;
+}
+
+.balloon-stone-200 > .trianle-left {
+  border: 1rem solid transparent;
+  position: absolute;
+  left: -1.75rem;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.balloon-stone-200 > .trianle-right {
+  border: 1rem solid transparent;
+  position: absolute;
+  right: -1.75rem;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.balloon-stone-200 {
+  background-color: #e7e5e4;
+  color: #292524;
+  border-color: transparent;
+}
+
+.balloon-stone-200 > .trianle-left {
+  border-right: 1rem solid #e7e5e4;
+}
+
+.balloon-stone-200 > .trianle-right {
+  border-right: 1rem solid #e7e5e4;
+}
+
+.balloon-contents {
+  padding: 0.5rem;
+}
+
+.balloon-contents > img {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* 画像埋め込み */
+
+.embedImage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.embedImageCaption {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  counter-increment: caption;
+}
+
+.embedImageCaption::before {
+  content: "図" counter(chapter) "-" counter(caption) ". ";
+}
+
+.embedImageFigure {
+  display: block;
+  text-align: center;
+}
+
+/* Mermaid、PlantUML */
+
+img[id^="mermaid-"], img[src^="https://www.plantuml.com/plantuml/png/"] {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  height: auto;
+  max-width: 75%;
+}
+
+/* チャプターカバー */
+
+.chapterCover {
+  height: calc(173mm * 0.8);
+}
+
+a.chapterCoverTitle::before {
+  content: "Chapter" target-counter(attr(href), chapter) " ";
+}
+
+/* 左柱 */
+
+a.leftPillarChapter::before {
+  content: "第" target-counter(attr(href), chapter) "章 ";
+  writing-mode: vertical-rl;
+}
+
+/* 右柱 TODO: 時々、??になるバグがあるので使わない */
+
+/* a.rightPillarChapterNo::after {
+  content: target-counter(attr(href), chapter) "章 ";
+} */
+
+/* テーブル */
+
+table {
+  border-collapse: collapse;
+}
+
+table caption {
+  caption-side: bottom;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  counter-increment: caption;
+}
+
+table caption::before {
+  content: "表" counter(chapter) "-" counter(caption) ". ";
+}
+
+table th,
+table td {
+  border-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+table th:first-child,
+table td:first-child {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+table th {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  background-color: var(--primary-color-500, #64748b);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+table td {
+  background-color: var(--primary-color-200, #e2e8f0);
+}
+
+table tr {
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+table tr:last-child {
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+/* 奥付のスタイル */
+
+#colophon {
+  page: colophon;
+}
+
+@page colophon {
+  @top-right {
+    content: none;
+  }
+}
+
+#colophon {
+  position: relative;
+  margin-bottom: 0px;
+  float-reference: page;
+  float: bottom;
+}
+
+#colophon .editions {
+  font-size: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+#colophon .info {
+  width: 100%;
+}
+
+#colophon .info tr {
+  border: 0;
+  box-shadow: none;
+  background-color: white;
+}
+
+#colophon .info tr:first-child {
+  box-shadow: 0 -1.5px 0 -0.4px #78716c;
+}
+
+#colophon .info tr:last-child {
+  box-shadow: 0 1.4px 0 -0.4px #78716c;
+}
+
+#colophon .info td {
+  vertical-align: top;
+  padding-left: 0;
+  font-size: 1em;
+  background-color: white;
+}
+
+#colophon .info td:first-child {
+  text-align: center;
+}
+
+/* 著者プロフィールのスタイル */
+
+#profile {
+  page: profile;
+}
+
+@page profile {
+  @top-right {
+    content: none;
+  }
+}
+
+#profile {
+  break-before: left;
+}
+
+#profile .author {
+  display: flex;
+  margin: 1rem 0;
+}
+
+#profile .author img {
+  margin: 0 10px 8px 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #d6d3d1;
+}
+
+#profile .profile {
+  flex-grow: 1;
+}
+
+#profile .profile h5 {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+#profile .profile h4 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.after--text-\[10px\]::after {
+  content: var(--tw-content);
+  font-size: 10px;
+}
+
+.after--text-\[8px\]::after {
+  content: var(--tw-content);
+  font-size: 8px;
+}
+
+.after--target-counter-page::after {
+  content: leader(".") target-counter(attr(href),page);
+}
+
+@media print {
+  .print--text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+}
